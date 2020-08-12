@@ -50,6 +50,16 @@ ul {
     background: radial-gradient(circle, rgba(139, 141, 139, 1) 25%, rgba(85, 85, 85, 1) 54%, rgba(13, 13, 13, 1) 85%);
 }
 
+#SourceCode {
+    background: black;
+    background-attachment: fixed;
+    overflow: hidden;
+    color: lightseagreen;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+}
+
 #imgBorder {
     margin: 20px;
 }
