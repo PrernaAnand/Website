@@ -1,0 +1,138 @@
+body {
+    background-color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+ul {
+    list-style: square;
+    display: inline-block;
+}
+
+#bg {
+    background-image: url("images/me.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center center;
+    margin-bottom: 0px;
+    min-height: 100vh;
+}
+
+#Me {
+    background: black;
+    background-attachment: fixed;
+    overflow: hidden;
+    color: white;
+}
+
+#Experience {
+    background: radial-gradient(circle, rgba(139, 141, 139, 1) 25%, rgba(85, 85, 85, 1) 54%, rgba(13, 13, 13, 1) 85%);
+    color: white;
+}
+
+#Projects {
+    background: black;
+    background-attachment: fixed;
+    overflow: hidden;
+    color: black;
+}
+
+#Art {
+    background: radial-gradient(circle, rgba(139, 141, 139, 1) 25%, rgba(85, 85, 85, 1) 54%, rgba(13, 13, 13, 1) 85%);
+}
+
+#cards {
+    padding-top: 10px;
+    margin: 0px;
+}
+
+#imgBorder {
+    margin: 20px;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.home {
+    font-family: sans-serif;
+    color: white;
+    padding-left: 100px;
+    padding-top: 130px;
+    font-style: italic;
+}
+
+.name {
+    font-family: sans-serif;
+    color: white;
+}
+
+.highlight {
+    color: lightseagreen;
+}
+
+.nav_color {
+    color: white!important;
+}
+
+.nav-link:hover {
+    color: lightseagreen!important;
+}
+
+@media(max-width: 1500px) and (min-width: 1100px) {
+    .home {
+        font-size: 2.5rem;
+        padding-top: 300px;
+        padding-left: 600px
+    }
+    .name {
+        font-size: 3.5rem;
+        padding-left: 500px
+    }
+    #cards {
+        padding-left: 100px;
+    }
+}
+
+@media(max-width: 1099px) and (min-width: 800px) {
+    .home {
+        font-size: 2.5rem;
+        padding-top: 300px;
+        padding-left: 400px
+    }
+    .name {
+        font-size: 3.5rem;
+        padding-left: 300px
+    }
+    #cards {
+        padding-left: 100px;
+    }
+}
+
+@media (max-width: 799px) and (min-width: 600px) {
+    .home {
+        font-size: 2rem;
+        padding-top: 300px;
+        padding-left: 280px
+    }
+    .name {
+        font-size: 3rem;
+        padding-left: 160px
+    }
+}
+
+@media (max-width: 599px) {
+    .home {
+        font-size: 1.5rem;
+        padding-top: 350px;
+        padding-left: 240px
+    }
+    .name {
+        font-size: 2.5rem;
+        padding-left: 150px
+    }
+}
