@@ -1,2 +1,2 @@
-## Website
-#Stars background acquired from: https://csshint.com/css-animated-backgrounds/
+# Website
+Stars background acquired from: https://csshint.com/css-animated-backgrounds/
