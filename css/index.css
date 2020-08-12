@@ -97,9 +97,6 @@ ul {
         font-size: 3.5rem;
         padding-left: 500px
     }
-    #cards {
-        padding-left: 100px;
-    }
 }
 
 @media(max-width: 1099px) and (min-width: 800px) {
@@ -111,9 +108,6 @@ ul {
     .name {
         font-size: 3.5rem;
         padding-left: 300px
-    }
-    #cards {
-        padding-left: 100px;
     }
 }
 
