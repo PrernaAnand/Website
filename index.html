@@ -9,10 +9,11 @@
     <script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.12.9/umd/popper.min.js" integrity="sha384-ApNbgh9B+Y1QKtv3Rn7W3mgPxhU9K/ScQsAP7hUibX39j7fakFPskvXusvfa0b4Q" crossorigin="anonymous"></script>
     <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
     <link rel="stylesheet" type="text/css" href="css/index.css">
-    <link rel="stylesheet" type="text/css" href="css/stars.css">
+    <link rel="stylesheet" type="text/css" href="css/stars.css"> //
+    <meta name="viewport" content="width=device-width, initial-scale=1" />
 </head>
 
-<body scroll=yes>
+<body>
 
     <!--Navbar-->
     <nav class="navbar fixed-top navbar-expand-lg navbar-dark" style="background-color: black;">
@@ -54,10 +55,9 @@
 
     <!-- Home -->
     <div class="jumbotron" id="bg">
-        <div class="container">
-            <h1 class="home"><strong>Hey I'm</strong></h1>
-            <h1 class="name"><strong>Prerna Anand</strong></h1>
-        </div>
+        <h1 class="home"><strong>Hey I'm</strong></h1>
+        <h1 class="name"><strong>Prerna Anand</strong></h1>
+
     </div>
 
     <!-- About Me -->
@@ -95,35 +95,26 @@
     <div class="jumbotron" id="Experience">
         <h1 class="highlight">Experience</h1>
 
-        <div class="row">
-            <div class="col-md-6">
-                <div id="cards">
-                    <div class="card text-white bg-dark mb-3" style="width: 30rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Nokia Siemens Network</h5>
-                            <h6 class="card-subtitle highlight">Automation Intern (June - Aug 2018)</h6>
-                            <p class="card-text">Combined daily report excel files about the functionality of the system with the main files. Responsible for converting their daily process-update file from VBA to C#.</p>
-                            <p><strong class="highlight">Technologies:</strong> VBA and C#</p>
-                        </div>
-                    </div>
+        <div class="card-group">
+            <div class="card text-white bg-dark mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Nokia Siemens Network</h5>
+                    <h6 class="card-subtitle highlight">Automation Intern (June - Aug 2018)</h6>
+                    <p class="card-text">Combined daily report excel files about the functionality of the system with the main files. Responsible for converting their daily process-update file from VBA to C#.</p>
+                    <p><strong class="highlight">Technologies:</strong> VBA and C#</p>
                 </div>
             </div>
 
-            <div class="col-md-6">
-                <div id="cards">
-                    <div class="card text-white bg-dark mb-3" style="width: 30rem;">
-                        <div class="card-body">
-                            <h5 class="card-title">Mentor</h5>
-                            <h6 class="card-subtitle highlight">Volunteer (June - Aug 2019)</h6>
-                            <p class="card-text">Worked as a mentor at Visamo Kids Foundation an organization for educating underpriveleged kids.</p>
-                            <a href="https://visamokids.org/" target="_blank" class="btn btn-light">Visamo Kids</a>
-                            </p>
-                        </div>
-                    </div>
+            <div class="card text-white bg-dark mb-3">
+                <div class="card-body">
+                    <h5 class="card-title">Mentor</h5>
+                    <h6 class="card-subtitle highlight">Volunteer (June - Aug 2019)</h6>
+                    <p class="card-text">Worked as a mentor at Visamo Kids Foundation an organization for educating underpriveleged kids.</p>
+                    <a href="https://visamokids.org/" target="_blank" class="btn btn-light">Visamo Kids</a>
+                    </p>
                 </div>
             </div>
         </div>
-
     </div>
 
     <!-- Projects -->
@@ -131,66 +122,48 @@
         <div id='stars'></div>
         <div id='stars2'></div>
         <div id='stars3'></div>
-        <div class="container">
-            <h1 class="highlight">Projects</h1>
+        <h1 class="highlight">Projects</h1>
 
-            <div class="row">
-                <div class="col-md-6">
-                    <div id="cards">
-                        <div class="card" style="width: 30rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">AI Project</h5>
-                                <h6 class="card-subtitle highlight">Adoption Prediction</h6>
-                                <p class="card-text">Created Convolution Neural Network, Artificial Neural Network and joined neural network to process images and data of 60,000 pets to predict their adoption rate.</p>
-                                <p><strong class="highlight">Technologies:</strong> Python</p>
-                                <p><strong class="highlight">Python Libraries:</strong> torch, numpy and pandas</p>
-                                <p><strong class="highlight">Image Processing and Sentimental Analysis:</strong> Google Vision API</p>
-                                <a href="https://github.com/PrernaAnand/Pet-Adoption-Prediction" target="_blank" class="btn btn-dark">Project Link</a>
-                            </div>
-                        </div>
-                    </div>
-                </div>
-
-                <div class="col-md-6">
-                    <div id="cards">
-                        <div class="card" style="width: 30rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Maps Project</h5>
-                                <p class="card-text">Created a functional map of 12 cities. Map had the ability to find the shortest distance between two intersections, find closest hospital and police station and an interactive UI.</p>
-                                <p>Final proposal for the project was to be used by Uber for ensuring safety of passengers.</p>
-                                <p><strong class="highlight">Technologies:</strong> C++ and Glade for UI</p>
-                                <a href="https://github.com/PrernaAnand/Maps" target="_blank" class="btn btn-dark">Project Link</a>
-                            </div>
-                        </div>
-                    </div>
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">AI Project</h5>
+                    <h6 class="card-subtitle highlight">Adoption Prediction</h6>
+                    <p class="card-text">Created Convolution Neural Network, Artificial Neural Network and joined neural network to process images and data of 60,000 pets to predict their adoption rate.</p>
+                    <p><strong class="highlight">Technologies:</strong> Python</p>
+                    <p><strong class="highlight">Python Libraries:</strong> torch, numpy and pandas</p>
+                    <p><strong class="highlight">Image Processing and Sentimental Analysis:</strong> Google Vision API</p>
+                    <a href="https://github.com/PrernaAnand/Pet-Adoption-Prediction" target="_blank" class="btn btn-dark">Project Link</a>
                 </div>
             </div>
 
-            <div class="row">
-                <div class="col-md-6">
-                    <div id="cards">
-                        <div class="card" style="width: 30rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Crossword</h5>
-                                <p class="card-text">Created a crossword game which is projected using VGA. The user uses the keys 1 and 2 on the FPGA to move to specific position in the game and key 4 to submit the answer.</p>
-                                <p><strong class="highlight">Technologies:</strong> C and Assembly</p>
-                                <a href="https://github.com/PrernaAnand/ECE243-Project---Crossword" target="_blank" class="btn btn-dark">Project Link</a>
-                            </div>
-                        </div>
-                    </div>
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Maps Project</h5>
+                    <p class="card-text">Created a functional map of 12 cities. Map had the ability to find the shortest distance between two intersections, find closest hospital and police station and an interactive UI.</p>
+                    <p>Final proposal for the project was to be used by Uber for ensuring safety of passengers.</p>
+                    <p><strong class="highlight">Technologies:</strong> C++ and Glade for UI</p>
+                    <a href="https://github.com/PrernaAnand/Maps" target="_blank" class="btn btn-dark">Project Link</a>
                 </div>
+            </div>
+        </div>
 
-                <div class="col-md-6">
-                    <div id="cards">
-                        <div class="card" style="width: 30rem;">
-                            <div class="card-body">
-                                <h5 class="card-title">Sudoku</h5>
-                                <p class="card-text">Two levels of Sudoku game. Used PS2 Keyboard, FPGA and VGA. Position can be changed using the keys on FPGA. Numbers are displayed using PS2 Keyboard.</p>
-                                <p><strong class="highlight">Technologies:</strong> Verilog</p>
-                                <a href="https://github.com/PrernaAnand/ECE241-Project---Sudoku" target="_blank" class="btn btn-dark">Project Link</a>
-                            </div>
-                        </div>
-                    </div>
+        <div class="card-group">
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Crossword</h5>
+                    <p class="card-text">Created a crossword game which is projected using VGA. The user uses the keys 1 and 2 on the FPGA to move to specific position in the game and key 4 to submit the answer.</p>
+                    <p><strong class="highlight">Technologies:</strong> C and Assembly</p>
+                    <a href="https://github.com/PrernaAnand/ECE243-Project---Crossword" target="_blank" class="btn btn-dark">Project Link</a>
+                </div>
+            </div>
+
+            <div class="card">
+                <div class="card-body">
+                    <h5 class="card-title">Sudoku</h5>
+                    <p class="card-text">Two levels of Sudoku game. Used PS2 Keyboard, FPGA and VGA. Position can be changed using the keys on FPGA. Numbers are displayed using PS2 Keyboard.</p>
+                    <p><strong class="highlight">Technologies:</strong> Verilog</p>
+                    <a href="https://github.com/PrernaAnand/ECE241-Project---Sudoku" target="_blank" class="btn btn-dark">Project Link</a>
                 </div>
             </div>
         </div>
