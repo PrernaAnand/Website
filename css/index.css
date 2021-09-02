@@ -1,0 +1,154 @@
+html,
+body {
+    overflow-x: hidden;
+}
+
+body {
+    background-color: black;
+}
+
+img {
+    max-width: 100%;
+    height: auto;
+    object-fit: contain;
+}
+
+ul {
+    list-style: square;
+    display: inline-block;
+}
+
+#bg {
+    background-image: url("images/00000IMG_00000_BURST20201025112549232_COVER.jpg");
+    background-size: cover;
+    background-repeat: no-repeat;
+    background-position: center top;
+    margin-bottom: 0px;
+    min-height: 100vh;
+}
+
+#Me {
+    background: black;
+    background-attachment: fixed;
+    overflow: hidden;
+    color: white;
+    font-size: 1.25rem;
+}
+
+#Experience {
+    background: radial-gradient(circle, rgba(139, 141, 139, 1) 25%, rgba(85, 85, 85, 1) 54%, rgba(13, 13, 13, 1) 85%);
+    color: white;
+    font-size: 1.25rem;
+}
+
+#Projects {
+    background: black;
+    background-attachment: fixed;
+    overflow: hidden;
+    color: black;
+    font-size: 1.15rem;
+}
+
+#Art {
+    background: radial-gradient(circle, rgba(139, 141, 139, 1) 25%, rgba(85, 85, 85, 1) 54%, rgba(13, 13, 13, 1) 85%);
+}
+
+#name-container {
+    position: absolute;
+    top: 25%;
+    left: 20%;
+    background-color: rgba(0,0,0,0.7);
+    padding: 16px;
+    border-radius: 16px;
+}
+
+#SourceCode {
+    background: black;
+    background-attachment: fixed;
+    overflow: hidden;
+    color: lightseagreen;
+    text-align: center;
+    font-size: larger;
+    font-weight: 500;
+}
+
+#imgBorder {
+    margin: 20px;
+}
+
+.jumbotron {
+    margin-bottom: 0px;
+}
+
+.home {
+    font-family: sans-serif;
+    color: white;
+    font-size: 4rem;
+}
+
+.name {
+    font-family: sans-serif;
+    color: white;
+    font-size: 5rem;
+}
+
+.highlight {
+    color: lightseagreen;
+}
+
+.header {
+    color: lightseagreen;
+    font-size: 2.5rem;
+    align-items: center !important;
+}
+
+.nav_color {
+    color: white!important;
+}
+
+.nav-link:hover {
+    color: lightseagreen!important;
+}
+
+.card {
+    margin: 20px;
+}
+
+@media(max-width: 1500px) and (min-width: 800px) {
+    .home {
+        font-size: 3rem;
+    }
+    .name {
+        font-size: 4rem;
+    }
+}
+
+@media (max-width: 799px) and (min-width: 600px) {
+    .home {
+        font-size: 2rem;
+    }
+    .name {
+        font-size: 3rem;
+    }
+
+
+}
+
+@media (max-width: 599px) and (min-width: 300px)
+{
+    .home {
+        font-size: 1.5rem;
+    }
+    .name {
+        font-size: 2rem;
+    }
+}
+
+@media (max-width: 299px) {
+    .home {
+        font-size: 0.75rem;
+    }
+    .name {
+        font-size: 1rem;
+    }
+}
