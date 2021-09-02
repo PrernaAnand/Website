@@ -114,6 +114,10 @@ ul {
     margin: 20px;
 }
 
+#button-dim {
+    margin: 10px;
+}
+
 @media(max-width: 1500px) and (min-width: 800px) {
     .home {
         font-size: 3rem;
